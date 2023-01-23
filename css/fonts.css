@@ -2,7 +2,11 @@
 
 /* Font face */
 
+/* @font-face{
+    font-family:'Roboto';
+    src:'../fonts/Roboto/Roboto-Italic.tff';
+} */
 @font-face{
     font-family:'Roboto';
-    src:'../fonts/Roboto/Roboto-Bold.tff':
+    src: url(../fonts/Roboto/Roboto-MediumItalic.ttf);
 }

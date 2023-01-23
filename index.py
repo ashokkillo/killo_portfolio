@@ -15,5 +15,5 @@ stats = subprocess.run(["git", "status"])
 
 # output = execute("git status")
 
-for line in stats.stdout:
-    print(line.decode().strip())
+# for line in stats.stdout:
+#     print(line.decode().strip())
