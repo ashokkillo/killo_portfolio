@@ -129,6 +129,7 @@
 .site-main .experience-area{
     padding: 1rem 20rem;
     margin-bottom: 4rem;
+    box-shadow: var(--box-shadow);
 }
 
 
