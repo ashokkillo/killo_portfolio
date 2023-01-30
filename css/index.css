@@ -125,6 +125,13 @@
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover >img{
     filter: brightness(0.15);
 }
+
+.site-main .experience-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+
 /* End Brand Area */
 
 /* 
