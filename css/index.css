@@ -143,21 +143,27 @@
 
 .site-main .brand-area .experience-area .bg-panel{
     position: absolute;
-    left: -190px;
-    top: 0%;
-    background: #e029290a;
+    left:570px;top: 250%;
+    background: #f704040a;
     width: 400px;
     height: 400px;
     margin-left: 340px;
     z-index: -1;
 }
+
 .site-main .brand-area .experience-area .years-area .years{
     font: normal bold 84px/40px var(--roboto);
     color: var(--primary-color2);
     z-index: 2;
 }
 
+.site-main .brand-area .experience-area .years-area h2>span{
+    font: normal 600 22px/30px var(--roboto);
+}
 
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 10rem;    
+}
 
 /* End Brand Area */
 
