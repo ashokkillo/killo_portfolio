@@ -141,7 +141,7 @@
     position: relative;
 }
 
-.site-main .brand-area .experience-area .bg-panel{
+/* .site-main .brand-area .experience-area .bg-panel{
     position: absolute;
     left:-150px; top:0%;
     background: #f704040a;
@@ -149,7 +149,7 @@
     height: 400px;
     margin-left: 340px;
     z-index: -1;
-}
+} */
 
 .site-main .brand-area .experience-area .years-area .years{
     font: normal bold 84px/40px var(--roboto);
@@ -198,6 +198,23 @@
 
 /* Start Project Area */
 
+.site-main .project-area{
+    padding: 4rem 0;
+}
 
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem 0;
+}
+
+.site-main .project-area .grid .our-project>title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
 
 /* End Project Area */
